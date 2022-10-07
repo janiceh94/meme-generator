@@ -1,8 +1,12 @@
 import React from 'react';
+import Troll from '../../images/Troll Face.png'
 
 const Header = () => {
     return (
-        <h1>Header</h1>
+        <header className = 'header'>
+            <img src = {Troll} alt = "logo"/>
+            <h1>Header</h1>
+        </header> 
     )
 }
 
