@@ -1,0 +1,23 @@
+.meme-main{
+    padding: 36px;
+}
+.form{
+    display: grid;
+    /* two 40px rows, 2 columns 1fr each */
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+.form-input{
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 10px;
+}
+.form-btn{
+    /* 1 (very beginning) to -1 (very end) */
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #1962a7 1.18%, #89daf5 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
