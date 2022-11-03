@@ -22,6 +22,14 @@ const Meme = () => {
         }))
     }
 
+    function handleChange(event){
+        const {name, value} = event.target
+        setMeme(prevMeme => ({
+            ...prevMeme,
+            [name]: value
+        }))
+    }
+
     return (
         <main className='meme-main'>
             <div className='form'>
