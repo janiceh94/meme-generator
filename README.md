@@ -1,3 +1,7 @@
+Meme generator following Scrimba React course with Bob Ziroll
+
+![Screen Shot 2022-11-02 at 9 38 16 PM](https://user-images.githubusercontent.com/93102224/199648641-067c2087-c5f0-43e4-a3cb-4672ba4a4f16.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
