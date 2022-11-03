@@ -56,6 +56,8 @@ const Meme = () => {
                 </button>
             </div>
             <img className = 'meme-image' src={meme.randomImg} alt="meme"/>
+            <h2>{meme.topText}</h2>
+            <h2>{meme.bottomText}</h2>
         </main>
     )
 }
